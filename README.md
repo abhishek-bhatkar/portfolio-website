@@ -2,6 +2,8 @@
 
 A modern, responsive personal portfolio website built with HTML5, CSS3, and JavaScript. Features include smooth scrolling, mobile-first design, dark mode support, and interactive elements.
 
+🌐 **Live Demo:** [https://abhishek-bhatkar.github.io/portfolio-website/](https://abhishek-bhatkar.github.io/portfolio-website/)
+
 ## Features
 - Responsive navigation with mobile menu
 - Smooth scrolling to sections
@@ -25,6 +27,13 @@ A modern, responsive personal portfolio website built with HTML5, CSS3, and Java
 1. Clone the repository
 2. Open `index.html` in your browser
 3. Customize the content to match your portfolio
+
+## Deployment
+This website is deployed using GitHub Pages. To deploy your own version:
+1. Fork this repository
+2. Go to repository Settings > Pages
+3. Select the `gh-pages` branch as the source
+4. Your site will be published at `https://[your-username].github.io/portfolio-website/`
 
 ## Color Themes
 The website features a carefully crafted color system inspired by GitHub's theme:
