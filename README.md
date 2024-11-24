@@ -17,9 +17,6 @@ A modern, responsive personal portfolio website built with HTML5, CSS3, and Java
 - JavaScript
 - Font Awesome Icons
 
-## Live Demo
-Coming soon...
-
 ## Setup
 1. Clone the repository
 2. Open `index.html` in your browser
