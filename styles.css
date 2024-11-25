@@ -522,12 +522,17 @@ nav {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     padding: 1.25rem;
     height: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 .education-item h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     color: var(--color-accent-fg);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .institution {
@@ -539,6 +544,12 @@ nav {
     color: var(--color-fg-muted);
     font-size: 0.9rem;
     margin-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+    .education-grid {
+        grid-template-columns: 1fr !important;
+    }
 }
 
 /* Projects */
@@ -680,7 +691,6 @@ nav {
 
     .timeline,
     .skills-grid,
-    .education-grid,
     .project-grid {
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -688,7 +698,6 @@ nav {
 
     .timeline-item,
     .skill-category,
-    .education-item,
     .project-card {
         padding: 1rem;
     }
