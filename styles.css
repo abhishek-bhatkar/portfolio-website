@@ -598,6 +598,7 @@ nav {
     align-items: center;
     gap: 0.5rem;
     transition: color 0.3s ease;
+    margin-right: 0.5rem;
 }
 
 .project-link:hover {
@@ -605,9 +606,8 @@ nav {
 }
 
 .project-link i {
-    font-size: 0.9rem;
-    margin-left: 0.5rem;
-    opacity: 0.7;
+    font-size: 1rem;
+    opacity: 0.8;
     transition: opacity 0.2s ease;
 }
 
@@ -621,6 +621,14 @@ nav {
 
 .project-link .fa-file-pdf {
     color: var(--color-danger-fg);
+}
+
+.project-link .fa-chrome {
+    color: #4285f4;
+}
+
+.project-link .fa-store {
+    color: #5C2D91;
 }
 
 .college-link {
